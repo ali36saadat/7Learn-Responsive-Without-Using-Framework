@@ -1,0 +1,36 @@
+.about-us-left {
+  background-color: rgb(242, 242, 242);
+  padding: 50px;
+}
+.about-us-left h4 {
+  font-size: 30px;
+  border-bottom: 3px solid rgb(197, 197, 197);
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.about-us-left p {
+  font-size: 15px;
+  padding: 50px;
+  padding-top: 25px;
+}
+
+.about-us-left a {
+  background-color: orange;
+  padding: 10px;
+  float: left;
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  transition: 0.5s ease;
+}
+.about-us-left a:hover {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .about-us-right {
+    display: none;
+  }
+}

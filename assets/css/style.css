@@ -1,0 +1,33 @@
+@import "_contact.css";
+@import "_nav.css";
+@import "_header.css";
+@import "_course.css";
+@import "_about-us.css";
+@import "_teacher.css";
+@import "_stat.css";
+@import "_topic.css";
+@import "_faq.css";
+@import "_footer.css";
+
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(../font/Vazir-Medium.eot) format("eot"),
+    url(../font/Vazir-Medium.woff) format("woff"),
+    url(../font/Vazir-Medium.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 231, 194);
+
+  padding: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 153, 0);
+  border-radius: 10px;
+}

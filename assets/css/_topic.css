@@ -1,0 +1,78 @@
+.background-topic {
+  background: url(../img/color-bg.png);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-topic-section .header-card-topic img {
+  transition: 0.5s ease;
+}
+
+.background-topic-section:hover img {
+  transform: scale(1.2) rotate(10deg);
+}
+.background-topic-section .header-card-topic {
+  overflow: hidden;
+}
+
+.body-card-topic img {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.card-topic {
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 10px rgb(208, 208, 208);
+  background-color: rgb(255, 255, 255);
+}
+
+.body-card-topic .course-title {
+  top: 0;
+  right: 75px;
+}
+
+.body-card-topic .course-title a {
+  font-size: 24px;
+}
+
+.body-card-topic .course-title p {
+  font-size: 18px;
+}
+
+.body-card-topic {
+  padding: 30px 30px 20px 30px;
+}
+
+.post-date {
+  color: white;
+  top: -26px;
+}
+.post-date div:first-child {
+  background-color: orange;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.post-date div:last-child {
+  background-color: rgb(206, 206, 206);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-card-topic ul li {
+  display: inline-block;
+}
+
+.footer-card-topic ul li i,
+.footer-card-topic ul li span {
+  font: 10px;
+  color: rgb(225, 225, 225);
+  margin: 0 10px;
+}
+.footer-card-topic ul {
+  border-top: 2px solid rgb(230, 230, 230);
+  padding-top: 5px;
+}

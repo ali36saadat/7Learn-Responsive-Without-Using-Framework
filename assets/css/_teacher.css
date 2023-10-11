@@ -1,0 +1,51 @@
+.background-taecher {
+  background: url(../img/e-bg.jpg);
+}
+
+.intro-teacher {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px gray;
+  width: 100%;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  text-align: center;
+}
+.intro-teacher span {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+.intro-teacher h4 {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  font-size: 24px;
+}
+.intro-teacher a {
+  color: orange;
+  padding: 10px;
+  font-size: 20px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  right: 500px;
+  display: inline-block;
+  width: 150px;
+  right: 50%;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro-teacher h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .intro-teacher a {
+    color: orange;
+    font-size: 15px;
+    border: 2px solid orange;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,28 @@
+.background-stat {
+  background-color: orange;
+  height: 300px;
+}
+.background-stat img {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 25px;
+}
+.background-stat .count {
+  color: white;
+  font-size: 42px;
+}
+.background-stat p {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .background-stat {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .background-stat {
+    height: 1050px;
+  }
+}

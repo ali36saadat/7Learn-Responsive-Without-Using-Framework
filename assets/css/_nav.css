@@ -1,0 +1,68 @@
+.nav {
+   background-color: rgb(227, 227, 227);
+   overflow: hidden;
+   box-shadow: 1px 1px 1px rgb(207, 207, 207);
+}
+.nav a {
+   color: rgb(0, 0, 102);
+   font-size: 20px;
+   padding: 10px 10px;
+   float: right;
+   border-bottom: 3px solid rgba(255, 166, 0, 0);
+}
+
+.nav a:hover {
+   border-bottom: 3px solid orange;
+   transition: 0.25s ease;
+}
+.nav a.icon {
+   display: none;
+}
+
+.NAV {
+   float: right;
+   width: 100%;
+   padding: 0px;
+}
+
+h1 {
+   font-size: 30px;
+   margin-top: 5px;
+}
+
+.nav-contact a {
+   float: left;
+   border-bottom: 3px solid rgba(0, 153, 255, 0);
+}
+.nav-contact a:hover {
+   border-bottom: 3px solid #09f;
+   transition: 0.25s ease;
+}
+
+@media screen and (max-width: 902px) {
+   .nav a {
+      display: none;
+   }
+   .nav a.icon {
+      position: absolute;
+      top: 0;
+      left: 15px;
+      display: inline;
+   }
+   .nav.responsive {
+      position: relative;
+   }
+   .nav.responsive a {
+      display: block;
+      float: none;
+      text-align: right;
+   }
+   .nav.responsive a.icon {
+      position: absolute;
+      top: 0;
+      left: 15px;
+   }
+   .nav .nav-contact {
+      display: none;
+   }
+}
